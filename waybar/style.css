@@ -14,26 +14,26 @@
 }
 
 #workspaces {
-  border-radius: 5px;
+  border-radius: 10px 10px 10px 10px;
   margin: 5px;
   background: #101010;
-  margin-left: 1rem;
+  margin-left: 0.1rem;
 }
 
 #workspaces button {
   color: #babbf1;
-  border-radius: 5px;
+  border-radius: 10px;
   padding: 0.4rem;
 }
 
 #workspaces button.active {
   color: #99d1db;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 #workspaces button:hover {
   color: #85c1dc;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 #custom-music,
@@ -41,30 +41,32 @@
 #backlight,
 #clock,
 #battery,
+#bluetooth,
 #pulseaudio,
-#network,
 #cpu,
-#memory,
+#language,
 #custom-lock,
-#temperature,
 #custom-power {
   background-color: #101010;
   padding: 0.5rem 1rem;
   margin: 5px 0;
-  border-radius: 0px 5px 5px 0px;
-}
-
-#memory {
-  border-radius: 0px 5px 5px 0px;
+  border-radius: 10px 10px 10px 10px;
 }
 
 #clock {
   color: #8caaee;
-  border-radius: 5px;
+  border-radius: 10px 10px 10px 10px;
   margin-right: 1rem;
 }
 
+#bluetooth {
+  color: #8caaee;
+  border-radius: 10px 10px 10px 10px;
+  margin-right: .1rem;
+}
+
 #battery {
+  border-radius: 10px 10px 10px 10px;
   color: #a6d189;
 }
 
@@ -78,17 +80,17 @@
 
 #pulseaudio {
   color: #ea999c;
-  border-radius: 5px 0px 0px 5%;
+  border-radius: 10px 10px 10px 10px;
   margin-left: 1rem;
 }
 
 #custom-lock {
-  border-radius: 5px 0px 0px 5px;
+  border-radius: 10px 10px 10px 10px;
   color: #babbf1;
 }
 
 #tray {
-  margin-right: 1rem;
-  margin-left: 1rem;
-  border-radius: 5px;
+  margin-right: 0rem;
+  margin-left: 0.2rem;
+  border-radius: 10px 10px 10px 10px;
 }
